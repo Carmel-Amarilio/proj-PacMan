@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+  color: white;
+  /* transform: rotate(-90deg); */
+}
+
+.endGamePanel{
+  background-color: rgb(96, 233, 162);
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  display: none;
+}
+
+button {
+  margin-top: 20px;
+  background-color: rgb(4, 255, 24);
+}
